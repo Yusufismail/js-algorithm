@@ -42,7 +42,7 @@ const checkYuGiOh=(n)=>{
 return bagg
 }
 else{
-    console.log(`invalid parameter: ${n} is ${typeof(n)} `)
+    console.log(`invalid parameter: ${n} `)
 }
 }
 console.log(checkYuGiOh('100'))
